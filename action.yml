@@ -1,0 +1,15 @@
+name: 'Practice Action'
+description: 'Say \"Thank you\" to new pull requests'
+author: 'Shamir Sas'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'GitHub token'
+    required: true
+  TENOR_TOKEN:
+    description: 'Tenor token'
+    required: true
+
+runs:
+  using: 'node24'
+  main: 'dist/index.js'
