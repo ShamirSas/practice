@@ -2,18 +2,15 @@
   "name": "practice",
   "version": "1.0.0",
   "description": "Practicing GitHub features",
-  "main": "index.js",
-  "type": "module",
+  "main": "app.js",
   "scripts": {
-    "build": "ncc build src/action.js -o dist",
+    "xbuild": "ncc build src/action.js -o dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@actions/core": "^3.0.1",
-    "@actions/github": "^9.1.1",
-    "@vercel/ncc": "^0.38.4"
+    "moment": "^2.30.1"
   }
 }
